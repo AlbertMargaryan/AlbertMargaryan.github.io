@@ -1,0 +1,377 @@
+body {
+	background-color: #F6F6F8;
+	margin:0;
+	position: flex;
+	padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+::-moz-selection { /* Code for Firefox */
+  
+  background: #6BD1ED;
+}
+
+::selection {
+
+  background: #6BD1ED;
+}
+/* fonts:  font-family: 'Balsamiq Sans', cursive; */
+
+.par {
+	display: inline-block;
+	font-family: 'Balsamiq Sans', cursive;
+	font-size: 20px;
+	float: center;
+	text-align: center;
+}
+.mainFir{
+	display: none;  /*  RAAAAAAAAAAAAAAA   */
+	margin-top: 7%;
+	margin-left:25%;
+	margin-right:25%; 
+	float: center;
+	position: relative;
+ 	z-index: 2;
+ 	background-attachment: fixed;
+}
+.mainFir1{
+	display: none;  /*  RAAAAAAAAAAAAAAA   */
+	margin-top: 7%;
+	margin-left:25%;
+	margin-right:25%; 
+	float: center;
+	position: relative;
+ 	z-index: 2;
+ 	background-attachment: fixed;
+}
+.firRec{
+	clear:both; 
+	text-align:center;
+}
+.firTri{
+	clear:both; 
+	text-align:center;
+}
+.inp {
+	display: inline-block;
+	margin-top: 5%;
+	font-family: 'Balsamiq Sans', cursive;
+	width:14%;
+	height: 25px;
+	font-size: 20px;
+	float: center;
+}
+
+.sub {
+	float: center;
+	text-align: center;
+	display: inline-block;
+	font-family: 'Balsamiq Sans', cursive;
+	border-radius: 10px;
+	border: none;
+	width: 100px;
+	height: 40px;
+	margin: 0;
+	background-color: #000;
+	color:#F6F6F8;
+	margin-top: 6%;
+	margin-bottom: 6%;
+	font-size: 20px;
+	transition: all .2s ease-in-out;
+
+}
+.sub:hover { 
+	transform: scale(1.1); 
+}
+.subDiv {
+	float: center;
+}
+.spanRec{
+	display:block;
+	margin-top: 1px;
+}
+#span1Div , #span2Div{
+
+	margin-top: 8%;
+}
+.asas{
+	display:none;
+}
+#firstPar {
+	display: inline-block;
+	font-family: 'Balsamiq Sans', cursive;
+	color: #000;
+	transition: all .1s ease-in-out;
+	text-decoration: none;
+	border-top: 1px #000 solid;
+	border-bottom: 1px #000 solid;
+}
+#firstPar:link, #firstPar:visited {
+	display: inline-block;
+	font-family: 'Balsamiq Sans', cursive;
+	text-decoration: none;
+	color: #000;
+}
+#firstPar:hover {
+	animation-name: color;
+	text-decoration: none;
+    animation-duration: 0.4s;
+    color: #6BD1ED;
+    border-bottom: 1px #6BD1ED solid
+}
+
+@keyframes color1 {
+  from {background-color:rgba(0,0,0,.1);}
+  to {background-color: #ffb6c1;}
+}
+@keyframes color2 {
+  from {background-color:rgba(0,0,0,.1);}
+  to {background-color: #6BD1ED;}
+}
+@keyframes color3 {
+  from {background-color:rgba(0,0,0,.1);}
+  to {background-color: rgba(0,0,0,.2)}
+}
+@keyframes color {
+  from {color: #000;}
+  to {color: #6BD1ED;}
+}
+.main-subscribe {
+	width: 104px;
+	height: 21px;
+	display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 5px;
+
+    background-color:rgba(0,0,0,.1);
+    border: none;
+    border-radius:4px  4px 0 0;
+    font-size: 14px;
+    color: #000;
+    text-decoration: none;
+    font-family: 'Balsamiq Sans', cursive;
+}
+.main-subscribe:hover {
+	animation-name: color1;
+    animation-duration: 1s;
+	background-color: #ffb6c1;
+}
+/* .flaticon{
+	box-shadow: none;
+    color: var(--link-color);
+    text-decoration: none;
+    border-bottom: 1px solid var(--border-color);
+    transition: all 0.2s;
+
+}
+	.flaticon:hover {
+	 color: rgba(0,0,0,.1); STEX KDZES
+}
+ */
+}
+a {
+	text-decoration: none;
+}
+.hrSc:visited , .hrSc:link {
+	text-decoration: none;
+}
+
+.inst {
+	width: 15px;
+	justify-content: center;
+}
+.wallpaper{
+	
+  	z-index: 1;
+   	word-wrap: makregistr;
+   	min-height: 100px;
+   	background-attachment: fixed;
+   	background-position: center;
+   	background-repeat: repeat;
+   	background-size: cover;
+}
+.wallp{
+	display: block;
+	background-attachment: fixed;
+	width: 100%;
+	position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -2;
+}
+
+@keyframes scroll {
+	0% {
+		transform: translateY(0);
+	}
+	30% {
+		transform: translateY(60px);
+	}
+}
+
+svg #wheel {
+	animation: scroll ease 2s infinite;
+}
+#span5{
+	margin-bottom: 7%;
+}
+
+
+
+.spa {
+	position: relative;
+	display: inline-block;
+	padding: 15px 30px;
+	color: #000;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	text-decoration: none;
+	font-size: 24px;
+	text-align: center;
+	overflow: hidden;
+	transition: 0.2s;
+	font-family: 'Balsamiq Sans', cursive;
+	font-size: 20px;
+	
+}
+
+.spa:hover {
+	color: #000;
+	background: #6BD1ED;
+	box-shadow:0 0 10px #6BD1ED, 0 0 40px #6BD1ED ,0 0 80px #6BD1ED;
+	transition-delay: 1s;
+}
+
+a span{
+	position:absolute;
+	display: block;
+	
+}
+a span:nth-child(1){
+		top: 0;
+		left: -100%;
+		width: 100%;
+		height: 2px;
+		background: linear-gradient(90deg,transparent,#6BD1ED);
+}
+a:hover span:nth-child(1){
+	left: 100%;
+	transition:1s;
+}
+
+
+a span:nth-child(3){
+		bottom: 0;
+		right: -100%;
+		width: 100%;
+		height: 2px;
+		background: linear-gradient(270deg,transparent,#6BD1ED);
+}
+a:hover span:nth-child(3){
+	right: 100%;
+	transition:1s;
+	transition-delay: 0.5s;
+}
+
+
+a span:nth-child(2){
+		top: -100%;
+		right: 0;
+		width: 2px;
+		height: 100%;
+		background: linear-gradient(180deg,transparent,#6BD1ED);
+}
+a:hover span:nth-child(2){
+	top: 100%;
+	transition:1s;
+	transition-delay: 0.25s;
+}
+
+
+
+a span:nth-child(4){
+		bottom: -100%;
+		left: 0;
+		width: 2px;
+		height: 100%;
+		background: linear-gradient(360deg,transparent,#6BD1ED);
+}
+a:hover span:nth-child(4){
+	bottom: 100%;
+	transition:1s;
+	transition-delay: 0.75s;
+}
+.mainCho {
+	margin-top: 10%;
+	display: block;
+	margin-left:25%;
+	margin-right:25%; /**/
+	float: center;
+	position: relative;
+ 	z-index: 2;
+ 	background-attachment: fixed;
+}
+
+
+footer {
+	margin-top: 15%;
+	position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+}
+#instagram-channel{
+	float: left;
+	margin-right: 0.5%;
+	
+	padding: 3px;
+	display: inline-block;
+}
+#aboutWeb{
+	background-color: #D3D3D5;
+	margin-left: 25%;
+	margin-right: 25%;
+	margin-bottom: 10%;
+	margin-top: 5%;
+	padding: 2%;
+	border: none;
+	border-radius: 10px;
+}
+
+#telegram-channel{
+	float: left;
+	margin-right: 0.5%;
+	
+	padding: 3px;
+	display: inline-block;
+}
+.main-subscribe1 , .main-subscribe2{
+	width: 104px;
+	height: 21px;
+	display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 5px;
+
+    background-color:rgba(0,0,0,.1);
+    border: none;
+    border-radius:4px  4px 0 0;
+    font-size: 14px;
+    color: #000;
+    text-decoration: none;
+    font-family: 'Balsamiq Sans', cursive;
+}
+.main-subscribe1:hover {
+	animation-name: color2;
+    animation-duration: 1s;
+	background-color: #6BD1ED;
+}
+
+.main-subscribe2:hover {
+	animation-name: color3;
+    animation-duration: 1s;
+	background-color: rgba(0,0,0,.2);
+}
