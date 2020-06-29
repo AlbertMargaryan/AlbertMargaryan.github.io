@@ -26,16 +26,16 @@
 		<img src="images/back.gif" class="wallp" id="wp1" alt="???Error 404 File Not Found???">
 		
 		<div class="svg" style="display: block; margin: 0 auto; text-align: center; ">
-				<svg width="40px" height="100%" viewBox="0 0 247 390" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;margin-top: 5%;">
+				<svg width="40px" height="100%" viewBox="0 0 247 390" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;margin-top: 5%;" class="scrSvg">
 				<path id="wheel" d="M123.359,79.775l0,72.843" style="fill:none;stroke:#fff;stroke-width:20px;display: block;"/>
 				<path id="mouse" d="M236.717,123.359c0,-62.565 -50.794,-113.359 -113.358,-113.359c-62.565,0 -113.359,50.794 -113.359,113.359l0,143.237c0,62.565 50.794,113.359 113.359,113.359c62.564,0 113.358,-50.794 113.358,-113.359l0,-143.237Z" style="fill:none;stroke:#fff;stroke-width:20px;display: block;background-attachment: fixed;background-position: center;background-repeat: repeat;background-size: cover;"/>
 			</svg>
 			
 			<a href="#177" class="hrSc"><p class="par" style="color:#fff;display: block;">scroll down</p></a>
 		<div style="float: center;margin: 0 auto; margin-top: 32%">
-			<span class="par" style="color: #fff; font-size: 35px;display: inline-block;text-align: center; margin: 0 auto; ">GeometryMy</span>
+			<span class="par" id="geomMy" style="color: #fff; font-size: 35px;display: inline-block;text-align: center; margin: 0 auto; ">GeometryMy</span>
 			<br/>
-			<img src="images/iconw.png" width="5%" style="text-align: center;float: center; display: inline-block; margin: 0 auto;">
+			<img src="images/iconw.png" class="geomImg" width="5%" style="text-align: center;float: center; display: inline-block; margin: 0 auto;">
 		</div>
 	</div>
 		
@@ -44,7 +44,7 @@
 
 		
 
-		<div data-aos="fade-down-right" data-aos-duration="1000" style="display: inline-block;" id="177" onclick="hayt1()">
+		<div data-aos="fade-down-right" data-aos-duration="1000" style="display: inline-block; position: flex; flex-wrap: wrap;" class="mainCont" id="177" onclick="hayt1()">
 		<a href="#187" class="spa" >
 				<span></span>
 				<span></span>
@@ -98,7 +98,8 @@
 
 	<div class="mainFir" id="187" data-aos="zoom-up" data-aos-duration="3000">
 		
-			<h1><a href="#!" id="firstPar">Calculator for Rectangle</a><a href="#!" onclick="jnj1()"><img src="images/close.svg" style="margin-left:3%; " width="3%"></a></h1>
+			<h1><a href="#!" id="firstPar">Calculator for Rectangle</a><a href="#!" onclick="jnj1()">
+				<img src="images/close.svg" style="margin-left:3%; display: inline-block; " class="cross" width="3%"></a></h1>
 
 		
 			<div class="firRec">
@@ -122,18 +123,15 @@
 			<span class="par" class="spanRec" id="span5"></span><br class="asas" />
 
 			</div>
-			<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"viewBox="0 0 179.74 118.64" style="enable-background:new 0 0 179.74 118.64;  " class="gg" xml:space="preserve" width="20%">
-			<style type="text/css">
-	.st0{fill:none; stroke:#000000;stroke-width:4;stroke-miterlimit:10;}
-</style>
-<line class="st0" id="re1" x1="3.35" y1="3.59" x2="3.35" y2="116.98"/>
-<line class="st0" id="re2" x1="1.41"   y1="3.59" x2="178.29" y2="3.63"/>
-<line class="st0" id="re3" x1="3.35"   y1="115.59" x2="176.35" y2="3.59"/>
-<path class="st0" id="re4"  d="M38.95,92.55l-35.6,23.03v0.03h41.69c0.26-1.56,0.4-3.16,0.4-4.8C45.45,103.88,43.01,97.53,38.95,92.55z"/>
-<path class="st0" id="re5"  d="M176.33,3.61l-29.51,19.11c3.78,9.07,12.73,15.45,23.17,15.45c2.2,0,4.34-0.29,6.37-0.82V3.61H176.33z"/>
-<line class="st0" id="re6" x1="1.39" y1="115.59" x2="178.27" y2="115.63"/>
-<line class="st0" id="re7" x1="176.35" y1="3.59" x2="176.35" y2="116.98"/>
-</svg>
+			<svg version="1.1" id="Layer_1" class="rectImage" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"viewBox="0 0 179.74 118.64" style="enable-background:new 0 0 179.74 118.64;  " class="gg" xml:space="preserve" width="20%">
+				<line class="st0" id="re1" x1="3.35" y1="3.59" x2="3.35" y2="116.98"/>
+				<line class="st0" id="re2" x1="1.41"   y1="3.59" x2="178.29" y2="3.63"/>
+				<line class="st0" id="re3" x1="3.35"   y1="115.59" x2="176.35" y2="3.59"/>
+				<path class="st0" id="re4"  d="M38.95,92.55l-35.6,23.03v0.03h41.69c0.26-1.56,0.4-3.16,0.4-4.8C45.45,103.88,43.01,97.53,38.95,92.55z"/>
+				<path class="st0" id="re5"  d="M176.33,3.61l-29.51,19.11c3.78,9.07,12.73,15.45,23.17,15.45c2.2,0,4.34-0.29,6.37-0.82V3.61H176.33z"/>
+				<line class="st0" id="re6" x1="1.39" y1="115.59" x2="178.27" y2="115.63"/>
+				<line class="st0" id="re7" x1="176.35" y1="3.59" x2="176.35" y2="116.98"/>
+			</svg>
 
 			</svg>
 
@@ -142,8 +140,8 @@
 	</div>
 
 	<div class="mainFir1" id="188" data-aos="zoom-up" data-aos-duration="3000">
-		<hr align="center" width="30%" color="#000">
-			<h1><a href="#!" id="firstPar">Calculator for Triangle</a><a href="#!" onclick="jnj2()"><img src="images/close.svg" style="margin-left:3%; " width="3%"></a></h1>
+		
+			<h1><a href="#!" id="firstPar">Calculator for Triangle</a><a href="#!" onclick="jnj2()"><img src="images/close.svg" class="cross"style="margin-left:3%; " width="3%"></a></h1>
 
 		
 			<div class="firTri">

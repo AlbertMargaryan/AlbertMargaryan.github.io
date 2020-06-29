@@ -375,3 +375,57 @@ footer {
     animation-duration: 1s;
 	background-color: rgba(0,0,0,.2);
 }
+	.st0{
+	fill:none; stroke:#000000;stroke-width:4;stroke-miterlimit:10;
+}
+
+@media screen and (max-width: 480px) {
+  body {
+   
+  }
+	  .mainCho{
+	  	margin: 25%;
+	  }
+	  .contLogo {
+	  	position: relative;
+	  	left: 50%;
+	  	margin: 0;
+	  	background-color: red;
+	  	top: 0px;
+	 }
+	 .mainCont{
+ 		flex-direction: row;
+ 	}
+ 	.inp{
+ 		width: 100px;
+ 	}
+ 	.cross {
+ 		width:15px;
+ 	}
+ 	.rectImage {
+ 		width:50%;
+ 	}
+ 	.mainFir , .mainFir1{
+ 		margin: 30px;
+ 		margin-top: 40px;
+ 	}
+ 	.spa {
+ 		width: 70%;
+ 	}
+ 	#aboutWeb{
+ 		margin: 10% 10%; 
+ 	}
+ 	.scrSvg{
+ 		width: 5%;
+ 		position: relative;
+ 		top: 100px;
+ 	}
+ 	#geomMy{
+ 		color:#000;
+ 		background-color: red;
+ 	}
+ 	.geomImg{
+ 		position: relative;
+ 		top: 20px;
+ 	}
+}
